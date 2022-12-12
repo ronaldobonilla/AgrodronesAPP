@@ -1,0 +1,10 @@
+
+
+
+000webhost
+database name: agrodrones
+database user : agro
+password : {ARF8P-v_p0aZkr-
+
+agrodronesdelcampo
+%1Wa$KWar!A1ip#mKu7V
