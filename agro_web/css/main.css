@@ -1,0 +1,167 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar {
+    background:#6ab446;
+    width: 100% !important;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0px;
+}
+.navbar-brand img{
+    height: 65px;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #333;
+    color: white;
+}
+
+.header {
+    /* background-image: url('../images/campo.jpg'); 
+    background-size: cover; */
+    background-position: center;
+    position: relative;
+}
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #6ab446;
+}
+.description p {
+	color: #000 ;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+.description button {
+    border:1px solid #6ab446;
+    background:#6ab446;
+    border-radius: 0;
+    color:#fff;
+}
+.description button:hover {
+	border:1px solid #fff;
+    background:#000;
+    color:#fff;
+}
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+.features .form-control,
+.features input {
+	border-radius: 0;
+}
+.features .btn {
+    background-color: #589b37;
+    border: 1px solid #589b37;
+    color: #fff;
+    margin-top: 20px;
+}
+.features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
+
+.dropdown .btn {
+    background-color: #6ab446;
+    border: 0px;
+}
+.dropdown .btn:hover{
+    background-color: #6ab446;
+}
+form {
+    margin: 10px;
+    padding: 50px;
+    align-items: center;
+}
+
+.form-group {
+    /* width: 300px; */
+    align-items: center;
+}
+
+#botonModal,
+#botonAgregar {
+    background-color: #6ab446;
+    border: 0px;
+}
+
+#botonRechazar{
+    background-color: red;
+    border: 0px;
+}
+#rowButtons {
+    margin: 10px;
+}
+
+th { 
+    color:black;
+    background-color: #6ab446;
+}
+
+
+/* Dashboard */
+.dash{
+    margin-top: 5rem;
+    padding:0 !important;
+    /* background:gainsboro; */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ .graph-group{
+    width: 200px !important;
+    height: 25px !important;
+    padding: 0 !important;
+}
+
+.form_graphs{
+    /* background: pink; */
+    display: flex;
+    justify-content: space-around;
+    min-width: 90%;
+    margin-top: 1rem;
+}
+
+.btn-search{border: none !important;}
